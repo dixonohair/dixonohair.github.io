@@ -4,9 +4,9 @@
 
 body
 {
-	font-family: garamond;
+	font-family: ogg;
 	color: powderblue ;
-	background-color: cybergrape;
+	background-color: purple;
 	margin-left: 75px;
 	margin-right: 75px;
 }
@@ -18,7 +18,7 @@ header, footer
 
 h1, h2, h3
 {
-	font-family: Cambria, Cochin, Garamond, serif;
+	font-family: Cambria, Caslon, Garamond, serif;
 	text-align: center;
 	line-height: 0px;
 }
