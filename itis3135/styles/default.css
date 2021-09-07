@@ -4,7 +4,7 @@
 
 body
 {
-	font-family: trebuchetms;
+	font-family: garamond;
 	color: powderblue ;
 	background-color: cybergrape;
 	margin-left: 75px;
@@ -18,7 +18,7 @@ header, footer
 
 h1, h2, h3
 {
-	font-family: Cambria, Cochin, Georgia, serif;
+	font-family: Cambria, Cochin, Garamond, serif;
 	text-align: center;
 	line-height: 0px;
 }
