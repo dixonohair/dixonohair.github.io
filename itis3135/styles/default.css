@@ -26,14 +26,14 @@ h1, h2, h3
 a
 {
 	text-decoration: none;
-	color: lightseagreen;
+	color: cybergrape;
 	font-weight: bold;
 }
 
 a:hover
 {
 	text-decoration: underline;
-	color: mediumseagreen;
+	color: powderblue;
 }
 
 figure
