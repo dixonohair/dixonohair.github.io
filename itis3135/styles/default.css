@@ -5,7 +5,7 @@
 body
 {
 	font-family: tahoma;
-	color: blue ;
+	color: powderblue ;
 	background-color: cybergrape;
 	margin-left: 75px;
 	margin-right: 75px;
@@ -26,14 +26,14 @@ h1, h2, h3
 a
 {
 	text-decoration: none;
-	color: pink;
+	color: oxfordblue;
 	font-weight: bold;
 }
 
 a:hover
 {
 	text-decoration: underline;
-	color: powderblue;
+	color: languidlavender;
 }
 
 figure
