@@ -5,8 +5,8 @@
 body
 {
 	font-family: ogg;
-	color: #CBF7ED;
-	background-color: #23395B;
+	color: #564787;
+	background-color: #DBCBD8;
 	margin-left: 75px;
 	margin-right: 75px;
 }
@@ -26,14 +26,14 @@ h1, h2, h3
 a
 {
 	text-decoration: none;
-	color: #69385C;
+	color: #9AD4D6;
 	font-weight: bold;
 }
 
 a:hover
 {
 	text-decoration: underline;
-	color: languidlavender;
+	color: #101935;
 }
 
 figure
