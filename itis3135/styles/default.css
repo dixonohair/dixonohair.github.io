@@ -18,7 +18,7 @@ header, footer
 
 h1, h2, h3
 {
-	font-family: Cambria, Caslon, Garamond, serif;
+	font-family: Garamond, Caslon, Cambria, serif;
 	text-align: center;
 	line-height: 0px;
 }
