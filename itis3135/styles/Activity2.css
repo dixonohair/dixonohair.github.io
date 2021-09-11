@@ -18,16 +18,9 @@ thead
 {
 	background-color: green;
 }
-table th {background: red;}
-th
-{
-	border: 1px solid black;
-	padding: .2em 1em .2em .5em;
-	text-align: left;
-	vertical-align: middle;
-	background-color: darkgreen;
-}
-td
+table th {background-color: darkgreen;}
+
+th, td
 {
 	border: 1px solid black;
 	padding: .2em 1em .2em .5em;
