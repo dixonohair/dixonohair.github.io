@@ -18,6 +18,7 @@ thead
 {
 	background-color: green;
 }
+table th {background: red;}
 th
 {
 	border: 1px solid black;
