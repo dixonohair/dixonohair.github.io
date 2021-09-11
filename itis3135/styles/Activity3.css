@@ -13,12 +13,12 @@ h1 {
 	font-size: 28px;    
 	text-align: center;    
 	background-color: #9AD4D6;
-	color: #F2FDFF;
+	color: #9AD4D6;
 }
 
 /*styling for the overall table*/
 table {    
-	background-color: #F8F8F8;
-	border: solid 2px #787878;
+	background-color: #9AD4D6;
+	border: solid 2px #9AD4D6;
 }
 
