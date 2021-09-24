@@ -17,3 +17,14 @@ function option1(){
 		document.getElementById("option1").innerHTML = ("That is not an option!");
 	}
 }
+
+function option2(){
+	var choice = prompt("Guess how many years an average ostrich lives for in captivity!?");
+	if(choice < 40){
+		document.getElementById("option2").innerHTML = ("A little low! An ostrich can live in captivity for 40-60 years!");
+	}else if(choice <60){
+		document.getElementById("option2").innerHTML = ("Too High! An ostrich can live in captivity for 40-60 years!");
+	}else{
+		document.getElementById("option2").innerHTML = ("Right on the money! An ostrich can live in captivity for 40-60 years!");
+	}
+}
