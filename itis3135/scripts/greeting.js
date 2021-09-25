@@ -1,10 +1,11 @@
+	
 	var name = prompt("Hello! What is your name?");
 	var mood = prompt("How are you today?");
 	var time = new Date();
+	document.write("The Disfunctional Ostrich welcomes you, " + name + "!" + " We're glad you are doing " + mood +"!");
+	document.write("\n\n\n");
 	document.write("Today is " + time.toDateString() + ". The Time is " + time.getHours() +
-		 ":" + time.getMinutes() + ". The Disfunctional Ostrich welcomes you, " + name + "!" + " We're glad you are doing " + mood);
-
-
+		 ":" + time.getMinutes() + ".");
 
 
 function option1(){
