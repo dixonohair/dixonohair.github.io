@@ -7,7 +7,12 @@
 	
 	<title>Dixon OHair, 3135, First Script</title>
 </head>
+<style>
+	.myDiv{
+		text-align: center;
+	}
 
+</style>
 <body>
 	<header>
 			<h1>Dixon O'Hair || ITIS3135</h1>
@@ -25,34 +30,41 @@
 	</nav>
 	
 	<main>
-		<h2>Greetings!</h2>
-		<script src="scripts/greeting.js"></script>
+		<div class="myDiv">
+			<img src="images/ostrich(iStock.com).jpg" width="100" height="100">
+		</div>
+
+		<h2>Greetings! </h2>
 		
 		<br>
 
-		<div id="option1">
+		<script src="scripts/greeting.js"></script>
+
+		<br>
+
+		<div id="option1" class="myDiv">
 			<h3>Choose an option:</h3>
 			<button onclick="option1()">Would you like to own an ostrich?</button>
 		</div>
 
 		<br>
 
-		<div id="option2">
+		<div id="option2" class="myDiv">
 			<button onclick="option2()">Guess average ostrich life-span in captivity</button>
 		</div>
 
 		<br>
-		<div id="option3">
+		<div id="option3" class="myDiv">
 			<button onclick="option3()">Name Your Ostrich</button>
 		</div>
 
 		<br>
-		<div id="option4">
+		<div id="option4" class="myDiv">
 			<button onclick="option4()">How many do you want?</button>
 		</div>
 
 		<br>
-		<div id="option5">
+		<div id="option5" class="myDiv">
 			<button onclick="option5()">What would you feed your ostrich?</button>
 		</div>
 
