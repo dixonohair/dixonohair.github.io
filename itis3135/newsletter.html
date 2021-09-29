@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link href="styles/Activity3.css" rel="stylesheet" type="text/css" >
-	<title>Dixon OHair, 3135, Newsletter</title>
+	<title>Dixon OHair, 3135, Activity 3 - Forms</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
         ||
 		<a href="tables.html">HTML Tables</a>
         ||
-		<a href="newsletter.html">Newsletter</a>
+		<a href="newsletter.html">Activity 3 - Forms</a>
         ||
 		<a href="website_evaluations.html">Website Evaluations</a>
 	||
@@ -26,33 +26,45 @@
 	
 	<main>
 		
-		<h2>Welcome to our Newsletter!</h2>
+		<h2>Activity 3 - Forms</h2>
 		
 		<h3>Subscribe to stay up-to-date on our updates!</h3>
 
+		
 		<form action="#"
+			
+			<label> Name: </label>
+			<input type="text" placeholder="Dave Doe" required>
+			<br>
+			<label> Email: </label>
+			<input type="email" placeholder="DaveDoe@davedoe.com" required>
+			<br>
+			<label> Cell: </label>
+			<input type="text" placeholder="000-000-0000" size="10" required>
+			<br>
+			<label> How would you like to receive this newsletter? </label>
+			<label for="text"><input id="text" type="radio" name="text"> Text</label>
+			<br>
+			<label for="email"><input id="email" type="radio" name="email"> Email</label>
+			<br>
+			<label for="both"><input id="both" type="checkbox" name="both"> Both</label>
+			<br>
 		
-		<label> Name: </label>
-		<input type="text" placeholder="Dave Doe" required>
-		<label> Email: </label>
-		<input type="email" placeholder="DaveDoe@davedoe.com" required>
-		<label> Cell: </label>
-		<input type="text" placeholder="000-000-0000" size="10" required>
-		<label> How would you like to receive this newsletter? </label>
-		<label for="text"><input id="text" type="radio" name="text"> Text</label>
-		<label for="email"><input id="email" type="radio" name="email"> Email</label>
-		<label for="both"><input id="both" type="checkbox" name="both"> Both</label>
-	
-		<p>Would you like to recieve updates separate from the newsletter?</p>
-		<select name = "option" required>
-            		<option value = "yes" selected>Yes</option>
-            		<option value = "no">No</option>
-         	</select>
-		
-		<p> Thank You! </p>
-		<button type="submit">Submit</button>
+			<p>Would you like to recieve updates separate from the newsletter?</p>
+			<br>
+			<select name = "option" required>
+						<option value = "yes" selected>Yes</option>
+						<option value = "no">No</option>
+				</select>
+			
+			<br>
 
+			<p> Thank You! </p>
+			<button type="submit">Submit</button>
+
+				
 		</form>
+	
 
 	</main>
 	
