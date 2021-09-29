@@ -39,17 +39,20 @@
 			<label> Email: </label>
 			<input type="email" placeholder="DaveDoe@davedoe.com" required>
 			<br>
-			<label> Cell: </label>
-			<input type="text" placeholder="000-000-0000" size="10" required>
+			<label> Phone: </label>
+			<input type="tel" placeholder="000-000-0000" size="10" required>
 			<br>
 			<label> How would you like to receive this newsletter? </label>
+			<br>
 			<label for="text"><input id="text" type="radio" name="text"> Text</label>
 			<br>
 			<label for="email"><input id="email" type="radio" name="email"> Email</label>
 			<br>
 			<label for="both"><input id="both" type="checkbox" name="both"> Both</label>
 			<br>
-		
+			<label for="neither"><input id="neither" type="checkbox" name="neither"> Neither</label>
+			<br>
+			
 			<p>Would you like to recieve updates separate from the newsletter?</p>
 			<br>
 			<select name = "option" required>
@@ -57,8 +60,8 @@
 						<option value = "no">No</option>
 				</select>
 			
+			
 			<br>
-
 			<p> Thank You! </p>
 			<button type="submit">Submit</button>
 
