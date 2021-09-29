@@ -1,4 +1,4 @@
-/* got this from coolors.co - please improve!
+/* got this from coolors.co 
  https://coolors.co/b5d6b2-53131e-5a464c-fffacc-ffefbd
 */
 
@@ -49,4 +49,10 @@ figcaption
 nav
 {
 	text-align: center;
+}
+
+.calculator_keys{
+
+	display: grid;
+	
 }
