@@ -1,6 +1,11 @@
 //keep prompting the user until they enter a number below 10
 var userNum = prompt("Hello! Welcome to the Dysfunctional Ostrich Polygon Namer! Please enter a number 0 - 10.");
 
+//take the number and make it positive
+userNum = Math.abs(userNum);
+
+//take the number and round it to the nearest integer
+userNum = Math.round(userNum);
 
 do{
 
@@ -8,13 +13,7 @@ do{
         userNum = prompt("ERROR! Please enter a number 0 - 10.");
     }
 
-    }while(userNum > 10);
-
-//take the number and make it positive
-userNum = Math.abs(userNum);
-
-//take the number and round it to the nearest integer
-userNum = Math.ceil(userNum);
+    }while(userNum > 11);
 
 //call the name function to store the name of the polygon
 var polygonName = getShape(userNum);
@@ -51,7 +50,6 @@ function getShape(numSides){
     }
 
 }
-
 
 //Validate that the user entered a number 0 - 10 inclusive
 function validateEntry(num){
