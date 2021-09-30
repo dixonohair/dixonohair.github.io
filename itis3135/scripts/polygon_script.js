@@ -7,6 +7,8 @@ userNum = Math.abs(userNum);
 //take the number and round it to the nearest integer
 userNum = Math.round(userNum);
 
+//while the entry is not less than 11, than show the error message
+//  and take another entry
 do{
 
     if(!(validateEntry(userNum))){
