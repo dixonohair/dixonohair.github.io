@@ -51,8 +51,12 @@ nav
 	text-align: center;
 }
 
-.calculator_keys{
-
+.keys{
 	display: grid;
-	
+	border: 2px solid black;
+	grid-template-columns: 20px 20 20px 20px;
+	grid-template-rows: 20px 20 20px 20px 20px;
+	background: gray;
+	width: 20%;
+	justify-self: center;
 }
