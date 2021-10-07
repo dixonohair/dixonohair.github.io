@@ -1,5 +1,7 @@
 /* got this from coolors.co 
  https://coolors.co/b5d6b2-53131e-5a464c-fffacc-ffefbd
+ Sources: 
+ button CSS: https://www.w3schools.com/css/css3_buttons.asp
 */
 
 body
@@ -51,12 +53,13 @@ nav
 	text-align: center;
 }
 
-.keys{
-	display: grid;
-	border: 2px solid black;
-	grid-template-columns: 20px 20 20px 20px;
-	grid-template-rows: 20px 20 20px 20px 20px;
-	background: gray;
-	width: 20%;
-	justify-self: center;
+.button
+{
+	background-color: #101935;
+	color: #DBCBD8;
+
+}
+.button:hover
+{
+	color: white;
 }
