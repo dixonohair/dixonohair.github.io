@@ -41,6 +41,64 @@
 
 		<br>
 
+		<form action="#"
+			
+			<label> Name: </label>
+			<input type="text" placeholder="Dave Doe" required>
+			<br>
+			<label> Email: </label>
+			<input type="email" placeholder="DaveDoe@davedoe.com" required>
+			<br>
+			
+			<!-- drop down menu to choose employee from database-->
+			<label for="dropdown">Select Employee: </label>
+			<select name="employees" id="people">
+				<option value="dixon">Dobi Cameron</option>
+				<option value="dixon">Dave Charlotte</option>
+				<option value="dixon">Gilly Eldon ,John Best</option>
+				<option value="dixon">John Best</option>
+			</select>
+
+
+
+
+
+			<label for="text"><input id="text" type="radio" name="text"> Text</label>
+			<br>
+			<label for="email"><input id="email" type="radio" name="email"> Email</label>
+			<br>
+			<label for="both"><input id="both" type="checkbox" name="both"> Both</label>
+			<br>
+			<label for="neither"><input id="neither" type="checkbox" name="neither"> Neither</label>
+			<br>
+			
+			<p>Would you like to recieve updates separate from the newsletter?</p>
+			<br>
+			<select name = "option" required>
+						<option value = "yes" selected>Yes</option>
+						<option value = "no">No</option>
+				</select>
+			
+			
+			<br>
+			<p> Thank You! </p>
+			<button type="submit">Submit</button>
+
+				
+		</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
 		<div id="addSalary" class="myDiv">
 			<h3>Choose an option:</h3>
 			<button onclick="addSalary()">Add Salary</button>
