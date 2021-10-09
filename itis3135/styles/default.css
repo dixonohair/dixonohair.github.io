@@ -63,3 +63,34 @@ nav
 {
 	color: white;
 }
+
+table
+{
+	border-collapse: collapse;
+	
+	margin: 20px;
+}
+
+thead
+{
+	background-color: #DBCBD8;
+}
+#table th {background-color: #DBCBD8;}
+
+th, td
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.right
+{
+	text-align: right;
+}
+
+tbody tr:nth-child(odd) td
+{
+	background-color: lightgreen;
+}
