@@ -1,0 +1,102 @@
+/* got this from coolors.co 
+https://coolors.co/59c3c3-50479a-ebebeb-cad2c5-84a98c
+
+ Sources: 
+ button CSS: https://www.w3schools.com/css/css3_buttons.asp
+*/
+
+body
+{
+	font-family: ogg;
+	color: #50479A;
+	background-color: #EBEBEB;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+header, footer
+{
+	text-align: center;
+}
+
+h1, h2
+{
+	font-family: Garamond, Caslon, Cambria, serif;
+	text-align: center;
+	line-height: 0px;
+}
+
+h3
+{
+	text-align: left;
+}
+
+a
+{
+	text-decoration: none;
+	color: #101935;
+	font-weight: bold;
+}
+
+a:hover
+{
+	text-decoration: underline;
+	color: #9AD4D6;
+}
+
+figure
+{
+	text-align: center;
+}
+
+figcaption
+{
+	font-style: italic;
+}
+
+nav
+{
+	text-align: center;
+}
+
+.button
+{
+	background-color: #101935;
+	color: #DBCBD8;
+
+}
+.button:hover
+{
+	color: white;
+}
+
+table
+{
+	border-collapse: collapse;
+	
+	margin: 20px;
+}
+
+thead
+{
+	background-color: #DBCBD8;
+}
+#table th {background-color: #DBCBD8;}
+
+th, td
+{
+	border: 1px solid black;
+	padding: .2em 1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.right
+{
+	text-align: right;
+}
+
+tbody tr:nth-child(odd) td
+{
+	background-color: lightgreen;
+}
