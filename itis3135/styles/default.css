@@ -18,11 +18,16 @@ header, footer
 	text-align: center;
 }
 
-h1, h2, h3
+h1, h2
 {
 	font-family: Garamond, Caslon, Cambria, serif;
 	text-align: center;
 	line-height: 0px;
+}
+
+h3
+{
+	text-align: left;
 }
 
 a
