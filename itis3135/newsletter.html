@@ -40,7 +40,7 @@
 			<input type="email" placeholder="DaveDoe@davedoe.com" required>
 			<br>
 			<label> Phone: </label>
-			<input type="tel" placeholder="000-000-0000" size="10" required>
+			<input type="tel" placeholder="000-000-0000" minlength="7" maxlength="10" required>
 			<br>
 			<label> How would you like to receive this newsletter? </label>
 			<br>
@@ -50,15 +50,14 @@
 			<br>
 			<label for="both"><input id="both" type="checkbox" name="both"> Both</label>
 			<br>
-			<label for="neither"><input id="neither" type="checkbox" name="neither"> Neither</label>
-			<br>
 			<p>Would you like to recieve updates separate from the newsletter?</p>
 			<select name = "option" required>
 						<option value = "yes" selected>Yes</option>
 						<option value = "no">No</option>
 				</select>
 			
-			
+			<br>
+				<label for="neither"><input id="neither" type="checkbox" name="neither">Click me if you would refer this Newsletter to a friend!</label>
 			<br>
 			<p> Thank You! </p>
 			<button type="submit">Submit</button>
