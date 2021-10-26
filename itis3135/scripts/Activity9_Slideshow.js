@@ -11,7 +11,7 @@ $(document).ready(function(){
         var imageLocation = $(this).attr("href");
         $("#firstImage").attr("src", imageLocation);
 
-        evt.preventDefault();
+       evt.preventDefault();
     });
     
     $("li:first-child a").focus();
