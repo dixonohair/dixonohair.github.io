@@ -99,3 +99,7 @@ tbody tr:nth-child(odd) td
 {
 	background-color: lightgreen;
 }
+
+li{
+	display: inline;
+}
