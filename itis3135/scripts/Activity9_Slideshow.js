@@ -1,4 +1,5 @@
 //Activity 9 Slideshow Javascript
+//Help from the Textbook
 $(document).ready(function(){
 
     $("#photos a").each(function(){
@@ -9,9 +10,6 @@ $(document).ready(function(){
     $("#photos a").click(function(evt){
         var imageLocation = $(this).attr("href");
         $("#firstImage").attr("src", imageLocation);
-
-        var caption = $(this).attr("title");
-        $("#caption").text(caption);
 
         evt.preventDefault();
     });
