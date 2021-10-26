@@ -1,0 +1,56 @@
+/* got this from coolors.co 
+ https://coolors.co/b5d6b2-53131e-5a464c-fffacc-ffefbd
+ Sources: 
+ button CSS: https://www.w3schools.com/css/css3_buttons.asp
+*/
+
+body
+{
+	font-family: ogg;
+	color: #564787;
+	background-color: #DBCBD8;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+header, footer
+{
+	text-align: center;
+}
+main
+{
+	text-align: center;
+}
+h1, h2
+{
+	font-family: Garamond, Caslon, Cambria, serif;
+	text-align: center;
+	line-height: 0px;
+}
+
+h3
+{
+	text-align: left;
+}
+
+nav
+{
+	text-align: center;
+}
+
+.button
+{
+	background-color: #101935;
+	color: #DBCBD8;
+
+}
+.button:hover
+{
+	color: white;
+}
+
+
+li
+{
+	display: inline;
+}
