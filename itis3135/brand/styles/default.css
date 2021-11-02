@@ -1,0 +1,27 @@
+
+/*
+    colors from: 
+*/
+
+body{
+    background-color: #F7D1CD;
+    font-family: Garamond, Georgia;
+    margin: 55px;
+}
+
+h1{
+    color: #4D7298;
+}
+
+h2{
+    color: #4D7298;
+
+}
+
+p{
+    color: #6097A9;
+
+}
+ul{
+    list-style:none;
+}
