@@ -1,14 +1,13 @@
-/* got this from coolors.co 
- https://coolors.co/b5d6b2-53131e-5a464c-fffacc-ffefbd
- Sources: 
- button CSS: https://www.w3schools.com/css/css3_buttons.asp
-*/
 
+/*
+    main style for project as a whole
+    colors: https://coolors.co/59c3c3-50479a-ebebeb-cad2c5-84a98c
+*/
 body
 {
 	font-family: ogg;
 	color: #564787;
-	background-color: #DBCBD8;
+	background-color: #EBEBEB;
 	margin-left: 75px;
 	margin-right: 75px;
 }
@@ -18,17 +17,16 @@ header, footer
 	text-align: center;
 }
 
-h1, h2
+h1, h2, h3
 {
+    /*
+    change the fonts to a book one
+    */
 	font-family: Garamond, Caslon, Cambria, serif;
 	text-align: center;
 	line-height: 0px;
 }
 
-h3
-{
-	text-align: left;
-}
 
 a
 {
@@ -72,7 +70,6 @@ nav
 table
 {
 	border-collapse: collapse;
-	
 	margin: 20px;
 }
 
@@ -102,4 +99,8 @@ tbody tr:nth-child(odd) td
 
 li{
 	display: inline;
+}
+
+.forms{
+    text-align: center;
 }
