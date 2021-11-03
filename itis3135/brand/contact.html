@@ -5,33 +5,10 @@ Coolers Link: https://coolors.co/d0efb1-b3d89c-9dc3c2-77a6b6-4d7298
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Dixon OHair, 3135, BrandPage</title>
+	<link href="styles/default.css" rel="stylesheet" type="text/css" >
+	<script src="scripts/contact.js"></script>
+	<title>Dixon OHair, 3135, Contact</title>
 
-	<style>
-		body{
-			background-color: #F7D1CD;
-			font-family: Garamond, Georgia;
-			margin: 55px;
-		}
-	
-		h1{
-			color: #4D7298;
-		}
-	
-		h2{
-			color: #4D7298;
-	
-		}
-	
-		p{
-			color: #6097A9;
-	
-		}
-		ul{
-			list-style:none;
-		}
-	
-	</style>
 </head>
 
 <body>
@@ -64,27 +41,52 @@ Coolers Link: https://coolors.co/d0efb1-b3d89c-9dc3c2-77a6b6-4d7298
 		<a href="Activity9_Slideshow.html">Activity 9 - Slideshow</a>
 	</nav>
 	<main>
-		<h2>Brand Page</h2>
-		
-		<p> Dysfunctional Ostrich INC believes in equality for all. We believe every single Ostrich should have friends with them at all times. This will ensure that these amazing animals are never lonely. Our mission is to improve the mental health of all Ostriches.</p>
+		<h2>Contact</h2>
 
-			<ul style="color:#88B1BF">
-				<li> Stock of over 100 Ostriches! </li>
-				<li> Trained employees for introducing new Ostrich!</li>
-				<li> Competitive Prices!</li>
-				<li> Humanely Transport Ostriche!</li>
-				<li> Source Ostriches directly from Africa!</li>
-				<li> All Ostriches come with papers!</li>
-
-			</ul>
-
+		<p> 
+			We would love to supply you with one of our beautiful Ostriches! 
+			Please fill out this form and we will reach out to you!
+			</p>
 	<br>
 
-        <p> 
-        We would love to supply you with one of our beautiful Ostriches! Prices include Introduction Trainer.
-        </p>
+	<form action="#"
+			
+		<label> Name: </label>
+		<input type="text" placeholder="Dave Doe" id="name" required>
+		<br>
+		<label> Email: </label>
+		<input type="email" placeholder="DaveDoe@davedoe.com" id="mail" required>
+		<br>
+		<label> Phone: </label>
+		<input type="tel" placeholder="000-000-0000" minlength="7" maxlength="10" id="phone" required>
+		<br>
+		<label> How would you like us to reach you? </label>
+		<br>
+		<label for="text"><input id="text" type="radio" name="text"> Text</label>
+		<br>
+		<label for="email"><input id="email" type="radio" name="email"> Email</label>
+		<br>
+		<p>Our monthly newsletter is a great way to learn about Ostriches! 
+			This newsletter includes photos of our ostriches along with short educational articles.
+		</p>
 
-	<p style="color: #4D7298"> 
+			<p>Would you like to recieve our monthly newsletter?</p>
+		<select name = "option" required>
+					<option value = "yes" selected>Yes</option>
+					<option value = "no">No</option>
+			</select>
+		
+		<br>
+		<button type="button" onclick="returnForm()">Submit</button>
+		
+		<br>
+		
+		<p> Thank You! </p>
+		<p id="contactInfo"></p>
+
+</form>
+
+	<p> 
         	Email: DysfunctionalOstrichINC@ostrich.com <br>
 	Phone: 704 - 443- 8058 <br>
 	Address: 803 Ostrich Cir Charlotte, NC 28206 
@@ -94,7 +96,7 @@ Coolers Link: https://coolors.co/d0efb1-b3d89c-9dc3c2-77a6b6-4d7298
 	
 	<footer>
 		
-		<p style="color: #4D7298">
+		<p>
 			Page built by Dysfunctional Ostrich INC, 2021
 		</p>
 		<a href="https://validator.w3.org/check?uri=referer">
