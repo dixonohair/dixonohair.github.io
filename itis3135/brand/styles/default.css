@@ -9,8 +9,10 @@ body{
     margin: 55px;
 }
 
+
 h1{
     color: #4D7298;
+    text-align: center;
 }
 
 h2{
@@ -23,5 +25,6 @@ p{
 
 }
 ul{
+    color:#88B1BF;
     list-style:none;
 }
