@@ -6,7 +6,7 @@
 body
 {
 	font-family: ogg;
-	color: #564787;
+	color: #691145;
 	background-color: #EBEBEB;
 	margin-left: 75px;
 	margin-right: 75px;
@@ -15,6 +15,7 @@ body
 header, footer
 {
 	text-align: center;
+	clear:both;
 }
 
 h1, h2, h3
@@ -22,16 +23,22 @@ h1, h2, h3
     /*
     change the fonts to a book one
     */
-	font-family: Garamond, Caslon, Cambria, serif;
+	font-family: Courier, Caslon, Cambria, serif;
 	text-align: center;
 	line-height: 0px;
 }
 
+p
+{
+	font-family: 'Courier New', Courier, monospace;
+	line-height: 2;
+}
 
 a
 {
+	font-family: monospace;
 	text-decoration: none;
-	color: #101935;
+	color: #424D4D;
 	font-weight: bold;
 }
 
@@ -41,11 +48,16 @@ a:hover
 	color: #9AD4D6;
 }
 
+.menu
+{
+	display:block;
+	float: left;
+}
+
 figure
 {
 	text-align: center;
 }
-
 figcaption
 {
 	font-style: italic;
@@ -67,35 +79,6 @@ nav
 	color: white;
 }
 
-table
-{
-	border-collapse: collapse;
-	margin: 20px;
-}
-
-thead
-{
-	background-color: #DBCBD8;
-}
-#table th {background-color: #DBCBD8;}
-
-th, td
-{
-	border: 1px solid black;
-	padding: .2em 1em .2em .5em;
-	text-align: left;
-	vertical-align: middle;
-}
-
-.right
-{
-	text-align: right;
-}
-
-tbody tr:nth-child(odd) td
-{
-	background-color: lightgreen;
-}
 
 li{
 	display: inline;
@@ -103,4 +86,10 @@ li{
 
 .forms{
     text-align: center;
+}
+
+nav{
+
+	border-bottom: 1px solid #101935;
+	border-top: 1px solid #101935;
 }
