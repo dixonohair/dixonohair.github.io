@@ -1,3 +1,6 @@
+//help from: https://www.codehim.com/carousel/fade-in-fade-out-slideshow-with-jquery/
+
+
 $(document).ready(function() {
 
 
@@ -19,12 +22,23 @@ $(document).ready(function() {
         swap.src = $(this).attr("href");
     });
 
+    
+
     $("#image_list a").click(function(evt){
+        /*
         var imageLocation = $(this).attr("href");
-        $("#image").attr("src", imageLocation).fadeIn(3000);
+        $("#image").attr("src", imageLocation);
+*/
+        setInterval(function(){
+            $("#image").fadeOut(3000, function(){
+                var imageLocation = $(this).attr("href");
+                $("#image").attr("src", imageLocation);
+                $(this).fadeIn(3000);
+            })
+        });
 
         var caption = $(this).attr("title");
-        $("#caption").text(caption).fadeIn(3000);
+        $("#caption").text(caption);
 
        evt.preventDefault();
     });
