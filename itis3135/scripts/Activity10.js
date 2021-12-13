@@ -25,17 +25,16 @@ $(document).ready(function() {
     
 
     $("#image_list a").click(function(evt){
-        /*
+        
         var imageLocation = $(this).attr("href");
-        $("#image").attr("src", imageLocation);
-*/
-        setInterval(function(){
+       //$("#image").attr("src", imageLocation);
+
+        
+        
             $("#image").fadeOut(3000, function(){
-                var imageLocation = $(this).attr("href");
-                $("#image").attr("src", imageLocation);
-                $(this).fadeIn(3000);
-            })
-        });
+                $("#image").attr("src", imageLocation).fadeIn(3000);
+            });
+        
 
         var caption = $(this).attr("title");
         $("#caption").text(caption);

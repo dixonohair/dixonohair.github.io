@@ -10,6 +10,7 @@ body
 	background-color: #EBEBEB;
 	margin-left: 75px;
 	margin-right: 75px;
+	text-align: center;
 }
 
 header, footer
@@ -54,14 +55,20 @@ a:hover
 	float: left;
 }
 
+
 figure
 {
+	float:left;
 	text-align: center;
+	display: block;
+	padding: 0.5em;
 }
+
 figcaption
 {
 	font-style: italic;
 }
+
 
 nav
 {
@@ -80,8 +87,9 @@ nav
 }
 
 
-li{
+ul, li{
 	display: inline;
+	text-align: center;
 }
 
 .forms{
@@ -92,4 +100,8 @@ nav{
 
 	border-bottom: 1px solid #101935;
 	border-top: 1px solid #101935;
+}
+
+.ui-datepicker{
+	background-color: white;
 }

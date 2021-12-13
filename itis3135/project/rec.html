@@ -3,7 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<link href="style/main.css" rel="stylesheet" type="text/css" >
-	
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  	<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+	<script src="scripts/rec.js"></script>
 	<title>Reccomendations</title>
 </head>
 
@@ -31,26 +34,28 @@
 		<!--
 			When clicked, it takes the user to buy the book on Amazon
 		-->
-		<figure>
+	
+		<figure class="menu" id="move">
 			<a href="https://www.amazon.com/Curse-So-Dark-Lonely/dp/1681195089">
 				<img src="images/curse.JPG" alt="Curse" width="200" height="250">
 			</a>
 			<figcaption>A Curse So Dark and Lonely</figcaption>
 		</figure>
 
-		<figure>
+		<figure class="menu" id="move2">
 			<a href="https://www.amazon.com/Ends-Us-Novel-Colleen-Hoover/dp/1501110365">
 				<img src="images/ends.JPG" alt="ends" width="200" height="250">
 			</a>
 			<figcaption>It Ends With Us</figcaption>
 		</figure>
-			
+	<div>
 		
 
 	</main>
 	
 	<footer>
 		<br/>
+		<p>Bored? Drag the books around!</p>
 		<p>
 			Page built by Dobiscus
 		</p>

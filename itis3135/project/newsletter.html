@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link href="style/main.css" rel="stylesheet" type="text/css" >
-	
+	<link href="style/main.css" rel="stylesheet" type="text/css">
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  	<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+	<script src="scripts/newsletter.js"></script>
 	<title>Newsletter</title>
 </head>
 
@@ -33,6 +35,10 @@
             <li>Receive Exclusive Content!</li>
         </ul>
 
+		<!-- 
+			add plug in to take input 
+			ADD NUMBER SLIDER TO SEE ON SCALE 1-10 HOW LIKELEY THEY ARE TO REFER A FRIEND 
+		-->
         <form action="#" class="forms"
 			
 			<label> Name: </label>
@@ -47,20 +53,21 @@
 			<label> How would you like to receive this newsletter? </label>
 			<br>
 			<label for="text"><input id="text" type="radio" name="text"> Text</label>
-			<br>
 			<label for="email"><input id="email" type="radio" name="email"> Email</label>
-			<br>
 			<label for="both"><input id="both" type="checkbox" name="both"> Both</label>
+			<br>
+			<br>
+			<label>Enter Your birthday for a surprise on your birthday!</label>
+			<label for="date"><input id="date" type="text" name="date"></label>
+			<br>
 			<br>
 			<p>Would you like to recieve updates separate from the newsletter?</p>
 			<select name = "option" required>
 						<option value = "yes" selected>Yes</option>
 						<option value = "no">No</option>
-				</select>
-			
+			</select>
 			<br>
-				<label for="neither"><input id="neither" type="checkbox" name="neither">Click me if you would refer this Newsletter to a friend!</label>
-			<br>
+		
 			<p> Thank You! </p>
 			<button type="submit">Submit</button>
 
